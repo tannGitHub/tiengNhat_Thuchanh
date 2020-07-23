@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tiếng Nhật thực hành</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Bài tập tiếng Nhật</string>
+    <string name="nav_header_subtitle">minhtan.vn87@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_tuvung">Từ vựng</string>
+    <string name="menu_kanji">Kanji</string>
+    <string name="menu_nguphap">Ngữ pháp</string>
+    <string name="menu_luyennghe">Luyện nghe</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_tuvung">
+
+    <fragment
+        android:id="@+id/nav_tuvung"
+        android:name="tannm.com.ninhongo_practice.ui.home.HomeFragment"
+        android:label="@string/menu_tuvung"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_kanji"
+        android:name="tannm.com.ninhongo_practice.ui.gallery.GalleryFragment"
+        android:label="@string/menu_kanji"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_nguphap"
+        android:name="tannm.com.ninhongo_practice.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_nguphap"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_luyennghe"
+        android:name="tannm.com.ninhongo_practice.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_luyennghe"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tuvung"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_tuvung" />
+        <item
+            android:id="@+id/nav_kanji"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_kanji" />
+        <item
+            android:id="@+id/nav_nguphap"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_nguphap" />
+        <item
+            android:id="@+id/nav_luyennghe"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_luyennghe" />
+    </group>
+</menu>
